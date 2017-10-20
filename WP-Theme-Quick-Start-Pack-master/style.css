@@ -1,0 +1,33 @@
+/*
+Theme Name: WP-Quick-Start-Pack
+Theme URI: http://underscores.me/
+Author: Mahfuz Rahman
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-quick-start-pack
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	00. Common CSS
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+	00. Common CSS
+--------------------------------------------------------------*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 15px;
+}
+
+a, a:hover, a:focus, a:visited {
+	text-decoration: none;
+}
