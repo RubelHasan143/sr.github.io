@@ -1,0 +1,264 @@
+/*wide screen*/
+
+@media only screen and (min-width: 1200px){
+	.slicknav_menu{
+		display: none;
+	}
+}
+
+/*medium screen*/
+@media only screen and (min-width: 992px) and (max-width: 1199px ){
+	.slicknav_menu{
+		display: none;
+	}
+}
+
+
+/*Tablet screen*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.slicknav_menu {
+    	display:block;
+	}
+	
+	
+}
+
+/*Mobile screen*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.slicknav_menu {
+    	display:block;
+	}
+	
+	.main_menu{
+		display: none;
+	}
+	
+	.logo_img h2{
+		text-align: center;
+	}
+	
+	.home_area{
+		padding-top: 0;
+	}
+	
+	.home_content h2{
+		font-size: 20px;
+	}
+	
+	.home_content h1{
+		font-size: 25px;
+		margin-top: 14px;
+	}
+	
+	.home_btn a{
+		font-size: 13px;
+		padding: 0 16px;
+		line-height: 40px;
+	}
+	
+	.main_area{
+		height: 350px;
+	}
+	
+	
+/*	About area start*/
+	
+	
+	.about_title{
+		padding-top: 20px;
+	}
+	
+	.about_title h2{
+		font-size: 12px;
+	}
+	
+	.about_title p{
+		font-size: 16px;
+		margin-bottom: 60px;
+	}
+	
+	.about_block .bgone{
+/*		background-attachment: none;*/
+		background-size: cover;
+/*		background-position: none;*/
+		
+	}
+	
+	.about_hlaf{
+		width: 100%;
+	}
+	
+	.col-md-offset-6{
+		margin-left: 5%;
+	}
+	
+	.about_single{
+		margin-left: 0;
+	}
+	
+	.about_single{
+		margin-top: 490px;
+		margin-bottom: 80px;
+	}
+	
+	.about_content h2{
+		font-size: 20px;
+	}
+	
+	.about_content p{
+		font-size: 13px;
+	}
+	
+	.single_items i{
+		font-size: 20px;
+		padding-right: 10px;
+	}
+	
+	.single_items h2{
+		font-size: 20px;
+	}
+	
+	.single_items p{
+		padding-left: 5px;
+		font-size: 13px;
+	}
+	.single_service_items{
+		padding: 20px 0;
+	}
+	
+	
+/*	service AREA start*/
+	
+	.service_title h1{
+		margin-bottom: 40px;
+	}
+	
+	.service_content p{
+		font-size: 14px;
+	}
+	
+	.service_content{
+		height: 260px;
+	}
+	
+	.service_text{
+		padding-top: 60px;
+	}
+	
+	.service_content{
+		margin-top: 50px;
+	}
+	
+/*	isotop area start*/
+	
+	.protfolio_title{
+		padding-top: 50px;
+	}
+	
+	.protfolio_title span{
+		font-size: 10px;
+	}
+	
+	.protfolio_title h2{
+		font-size: 25px;
+	}
+	
+	.protfolio_filter{
+		text-align: left;
+		margin-left: -36px;
+		margin-top: 25px;
+	}
+	.protfolio_filter li{
+		padding: 0 36px;
+		margin: 0 -31px;
+	}
+	
+	.masonry-section{
+		padding-top: 30px;
+	}
+	
+/*	pricing table*/
+	
+	.price_area{
+		margin-top: 50px;
+		padding: 50px 0;
+	}
+	
+	.single_price_table{
+		margin-top: 50px;
+		padding: 0;
+	}
+	
+	.single_price_table h4{
+		font-size: 25px;
+	}
+	
+	.single_price_table h3{
+		font-size: 40px;
+		margin-top: 20px;
+	}
+	
+	.single_price_table h3 span{
+		font-size: 20px;
+	}
+	
+	.price_list li{
+		line-height: 35px;
+	}
+	
+	.price_btn{
+		padding: 0 30px;
+		line-height: 40px;
+		font-size: 12px;
+		margin-top: 15px;
+		margin-bottom: 35px;
+	}
+	
+	.pop h6{
+		font-size: 9px;
+	}
+	
+/*	jhone_slider AREA start*/
+	
+	.singel_jhone p{
+		font-size: 15px;
+		line-height: 25px;
+	}
+	
+	.singel_jhone h3{
+		font-size: 15px;
+	}
+	
+	.icon_itm{
+		padding-top: 40px;
+	}
+	
+	.owl-dots{
+		bottom: -50px;
+	}
+	
+	.jhone_area{
+		height: 420px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+/*Wide Mobile screen*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    
+}
+
