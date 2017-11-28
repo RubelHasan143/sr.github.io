@@ -1,0 +1,114 @@
+
+.accordion{
+    
+}
+
+
+
+.custom-panel-title{
+    background: #ddd;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: -20px;
+    border-bottom: 3px solid #d4d4d4;
+    text-align: center;
+}
+
+.custom-panel-title a{
+    color: rgb(39, 56, 109);
+}
+
+.custom_accordion{
+    margin-top: 50px;
+}
+
+.custom-panel-body {
+    margin-top: -15px;
+    padding: 20px;
+    font-size: 17px;
+
+}
+
+
+
+
+.panel-heading{
+    position: relative;
+}
+.panel-heading:before{
+    position: absolute;
+    content: "\f0d7";
+    font-family: fontawesome;
+    right: 40px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    
+}
+
+.panel-heading.active:before{
+    content: "\f0de";
+}
+
+img{
+    max-width: 100%;
+}
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+ul.isotop_filter {
+    text-align: center;
+}
+
+
+ul.isotop_filter li{
+    color: #fff;
+    display: inline-block;
+    background: #8361f7;
+    padding: 0 15px;
+    line-height: 45px;
+    border-radius: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+ 
+}
+
+ul.isotop_filter li.active{
+    background: red;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.header h1{
+    font-size: 50px;
+    text-align: center;
+    color: #7ba7e8;
+    
+}
+
+
+.single_isotop{
+    float: left;
+    width: 20%;
+    margin-top: 15px;
+   
+}
+
+.isotop_items_wrapper{
+    margin: -10px;
+    overflow: hidden;
+}
+
+.video{
+	height: 500px;
+}
